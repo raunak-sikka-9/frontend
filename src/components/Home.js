@@ -51,7 +51,7 @@ const Home = () => {
                   <div class="card cascading-right"
                     style=" background: hsla(0, 0%, 100%, 0.55); backdrop-filter: blur(30px); ">
                     <div class="card-body px-4 pb-5 pt-md-0 px-md-5 shadow-5">
-                      <h1 class="my-5 display-4 fw-bold ls-tight"> <span>Preview Generation Tool</span> <br> <span
+                      <h1 class="my-5 display-4 fw-bold ls-tight"> <span>Preview Generation Tool</span> <br/> <span
                           class="text-primary"></span> </h1> <a
                         class="btn btn-primary btn-lg py-3 px-5 mb-2 mb-md-0 me-md-2" href="#" role="button"
                         aria-controls="#picker-editor" draggable="false" style="">Get started</a> <a
@@ -83,7 +83,7 @@ const Home = () => {
               </div>
             </div>
             <h1 class="fw-bold mb-4">Introduction</h1>
-            <p>&nbsp;<br><br>The topic is “Preview Generation Tool” which is as the name suggests means to generate a
+            <p/>&nbsp;<br/>The topic is “Preview Generation Tool” which is as the name suggests means to generate a
               preview of the file uploaded by the user on the localhost browser which this report discusses elaborately
               later in the working and by writing required codes in VS code, the project came into working using ReactJS
               and HTML, CSS, JavaScript to fulfill our output needs. The usage or the applications of this project have
@@ -93,7 +93,7 @@ const Home = () => {
               statement is very clear and simple to understand. The results of this and some of the codes have been
               discussed for the clear image of the project and are well explained as well. Now, concluding with the
               brief summary of the project on the note that this project has been made with deep interests in coding and
-              React and it will be a great tool to be used by the people once they try it.</p>
+              React and it will be a great tool to be used by the people once they try it.<p/>
           <section/>
         <section/>
         
@@ -192,12 +192,6 @@ const Home = () => {
         
         <section draggable="false" class="container pt-5" data-v-271253ee="">
           <section class="mb-10 background-radial-gradient">
-            <style>
-              .background-radial-gradient {
-                background-color: hsl(218, 41%, 15%);
-                background-image: radial-gradient(650px circle at 0% 0%, hsl(218, 41%, 35%) 15%, hsl(218, 41%, 30%) 35%, hsl(218, 41%, 20%) 75%, hsl(218, 41%, 19%) 80%, transparent 100%), radial-gradient(1250px circle at 100% 100%, hsl(218, 41%, 45%) 15%, hsl(218, 41%, 30%) 35%, hsl(218, 41%, 20%) 75%, hsl(218, 41%, 19%) 80%, transparent 100%);
-              }
-            </style>
             <div class="container px-4 py-5 px-md-5 text-center text-lg-start">
               <div class="row gx-lg-5 align-items-center">
                 <div class="col-lg-6 mb-5 mb-lg-0">
