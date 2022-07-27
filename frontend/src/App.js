@@ -7,6 +7,7 @@ import { createTheme, ThemeProvider} from '@mui/material';
 import { useState } from 'react';
 import Navbar from './components/Navbar';
 import Login from './components/Login';
+import UploadFile from './components/Uploadfile';
 
 
 function App() {
@@ -35,7 +36,7 @@ function App() {
 <Routes>
   <Route element={<Signup></Signup>}path="signup"/>
   <Route element={<Login></Login>}path="login"/>
-  <Route element={<Navbar></Navbar>}path="navbar"/>
+  <Route element={<UploadFile />}path="uploadfile"/>
   {/* <Route element={<Chatbox></Chatbox>}path="chatbox"/> */}
 
   <Route element={<Navigate to="/home"/>}path="/"/>
