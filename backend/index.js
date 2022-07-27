@@ -4,6 +4,7 @@ const app=express();
 
 
 const userRouter= require('./routers/userRouter')
+const utilRouter= require('./routers/util')
 const cors = require('cors');
 
 //middleware- passes information to some other route, doesn't give response
@@ -12,6 +13,7 @@ const cors = require('cors');
 app.use(cors({origin : ['http://localhost:3000']}))
 app.use(express.json());
 app.use('/user',userRouter);
+app.use('/util',utilRouter);
 
 const port = 4000;
 app.get('/',(req,res) => {
