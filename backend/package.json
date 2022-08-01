@@ -14,6 +14,7 @@
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
     "cors": "^2.8.5",
     "express": "^4.18.1",
+    "filepreviews": "^2.0.1",
     "fluent-ffmpeg": "^2.1.2",
     "mongoose": "^6.4.6",
     "nodemon": "^2.0.19"
