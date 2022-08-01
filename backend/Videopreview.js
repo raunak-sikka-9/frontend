@@ -2,7 +2,7 @@ const ffmpegPath = require('@ffmpeg-installer/ffmpeg').path
 const ffmpeg = require('fluent-ffmpeg')
 ffmpeg.setFfmpegPath(ffmpegPath)
 
-ffmpeg('video.mp4')
+ffmpeg('https://preview-gen.herokuapp.com/videoplayback.mp4')
   .setStartTime('00:00:03')
   .setDuration('3')
   .output('video_out.gif')

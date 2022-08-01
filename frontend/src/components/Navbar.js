@@ -41,6 +41,9 @@ const Navbar = ({darkTheme, setDarkTheme}) => {
               <NavLink className="nav-link" to="/login">Login</NavLink>
             </li>
             <li class="nav-item">
+              <NavLink className="nav-link" to="/signup">Signup</NavLink>
+            </li>
+            <li class="nav-item">
               <Switch checked={darkTheme} onChange={ (e,v) => { setDarkTheme(v)}}/>
             </li>
             

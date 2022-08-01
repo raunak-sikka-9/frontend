@@ -8,6 +8,7 @@ import { useState } from "react"
 import Navbar from "./components/Navbar"
 import Login from "./components/Login"
 import UploadFile from "./components/Uploadfile"
+import Dashboard from "./components/Dashboard"
 
 function App() {
   const [darkTheme, setDarkTheme] = useState(false)
@@ -36,6 +37,7 @@ function App() {
           <Route element={<Signup></Signup>} path="signup" />
           <Route element={<Login></Login>} path="login" />
           <Route element={<UploadFile />} path="uploadfile" />
+          <Route element={<Dashboard />} path="dashboard" />
           {/* <Route element={<Chatbox></Chatbox>}path="chatbox"/> */}
 
           <Route element={<Navigate to="/home" />} path="/" />
