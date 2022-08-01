@@ -51,7 +51,7 @@ const Login = () => {
                             {({ values, handleChange, handleSubmit }) => (
                                 <form onSubmit={handleSubmit}>
 
-                                    <h3 className="text-center">Sign-in Here</h3>
+                                    <h3 className="text-center">Login Here</h3>
                                     <hr />
 
                                     <label className='mt-4'>Email</label>

@@ -6,8 +6,8 @@ import { useNavigate } from 'react-router-dom';
 import Swal from 'sweetalert2';
 import * as Yup from 'yup';
 
-<div><Toaster/></div>
-toast("Login successful")
+{/* <div><Toaster/></div>
+toast("Login successful") */}
 
 const Signup = () => {
     // 1. Submit function 
@@ -48,7 +48,7 @@ const Signup = () => {
 
     return (
         <div>
-            <h1>Signup Here</h1>
+            <h1>Sign-up Here</h1>
             <hr />
             <Formik initialValues={{
                 name: '',

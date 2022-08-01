@@ -8,6 +8,8 @@ import { useState } from "react"
 import Navbar from "./components/Navbar"
 import Login from "./components/Login"
 import UploadFile from "./components/Uploadfile"
+import Home from "./components/Home"
+import Signuptesting from "./components/Signuptesting"
 
 function App() {
   const [darkTheme, setDarkTheme] = useState(false)
@@ -33,7 +35,8 @@ function App() {
       <Link to="/login">Login Page</Link>    */}
         <Navbar darkTheme={darkTheme} setDarkTheme={setDarkTheme} />
         <Routes>
-          <Route element={<Signup></Signup>} path="signup" />
+          <Route element={<Home/>} path="home" />
+          <Route element={<Signuptesting/>} path="signuptesting" />
           <Route element={<Login></Login>} path="login" />
           <Route element={<UploadFile />} path="uploadfile" />
           {/* <Route element={<Chatbox></Chatbox>}path="chatbox"/> */}

@@ -15,6 +15,8 @@ app.use(express.json());
 app.use('/user',userRouter);
 app.use('/util',utilRouter);
 
+app.use(express.static('./static'));
+
 const port = 4000;
 app.get('/',(req,res) => {
     res.send('Response from Express!');
