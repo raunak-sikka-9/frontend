@@ -8,5 +8,3 @@ const scObj = new Schema({
     password: String
 })
 module.exports = model('users', scObj);
-
-
