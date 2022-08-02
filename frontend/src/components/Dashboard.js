@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 
 const Dashboard = () => {
-  const url = "http://localhost:5000"
+  const url = "http://localhost:4000"
 
   const [currentUser, setCurrentUser] = useState(JSON.parse(sessionStorage.getItem("user")))
 

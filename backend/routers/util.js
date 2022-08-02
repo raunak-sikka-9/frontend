@@ -103,18 +103,6 @@ const generateVidPreview2 = (url) => {
  });
 
 
-<<<<<<< HEAD
- router.post("/gen-preview", (req, res) => {
-    upload(req, res, (err) => {
-     if(err) {
-      console.log(err);
-       res.status(400).send("Something went wrong!");
-     }else{
-      generateVidPreview(req.file.originalname);
-      res.json({previewLink : "http://localhost:4000/previews/"+req.file.originalname+"_preview.gif"});
-     }
-   });
-=======
  router.post("/gen-vid-preview", (req, res) => {
   const formdata = req.body;  
   const id = generateVidPreview2(formdata.url);
@@ -147,7 +135,6 @@ const generateVidPreview2 = (url) => {
 
  router.get("/ret-vid-preview/:id", (req, res) => {
   res.status(200).redirect("http://localhost:4000/previews/"+req.params.id+'_preview.gif');
->>>>>>> 7fb67b8b061c11d00c47284759b4d6533c9a2880
  })
 
  module.exports = router;
