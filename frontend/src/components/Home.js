@@ -130,8 +130,8 @@ const Home = () => {
               &nbsp;
               <br />
               <br />
-              The topic is “Preview Generation Tool” which is as the name suggests
-              means to generate a preview of the file uploaded by the user on the
+              The topic is “Preview Generation Tool” which as the name suggests
+              means to generate the preview of the file uploaded by the user on the
               localhost browser which this report discusses elaborately later in the
               working and by writing required codes in VS code, the project came
               into working using ReactJS and HTML, CSS, JavaScript to fulfill our
@@ -315,7 +315,7 @@ const Home = () => {
                     applications like Postman, MongoDB, MDB (MD bootstrap), MUI etc.
                     were used to design the tool’s frame and check the logic of the
                     code, thereby giving the desired results using programming
-                    languages and React. On a website 
+                    languages and React. On a website
                   </span>
                   <a
                     href="http://www.mui.com"

@@ -2,6 +2,7 @@ import { Formik } from 'formik';
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import Swal from 'sweetalert2';
+import "./Login.css"
 
 const Login = () => {
   const navigate = useNavigate();
@@ -47,9 +48,9 @@ const Login = () => {
     }
 
     return (
-        <div>
+        <div className='login-place-centre'>
             <div className="col-md-4 mx-auto bg-light">
-                <div className="card mt-5">
+                <div className="card">
                     <div className="card-body">
 
                         <Formik initialValues={{ email: '', password: '' }} onSubmit={userSubmit}>

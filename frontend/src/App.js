@@ -11,6 +11,7 @@ import UploadFile from "./components/Uploadfile"
 import Dashboard from "./components/Dashboard"
 import Home from "./components/Home"
 import Signuptesting from "./components/Signuptesting"
+import Loginpagetesting from "./components/Loginpagetesting"
 
 function App() {
   const [darkTheme, setDarkTheme] = useState(false)
@@ -38,7 +39,8 @@ function App() {
         <Routes>
           <Route element={<Home/>} path="home" />
           <Route element={<Signuptesting/>} path="signuptesting" />
-          <Route element={<Login></Login>} path="login" />
+          {/* <Route element={<Login></Login>} path="login" /> */}
+          <Route element={<Loginpagetesting/>} path="loginpagetesting" />
           <Route element={<UploadFile />} path="uploadfile" />
           <Route element={<Dashboard />} path="dashboard" />
           {/* <Route element={<Chatbox></Chatbox>}path="chatbox"/> */}

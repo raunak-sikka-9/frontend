@@ -37,6 +37,8 @@ const UploadFile = () => {
     });
   }
 
+  
+
   return (
     <div className="container">
       <div className="card">
