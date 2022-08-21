@@ -120,7 +120,7 @@ const generateVidPreview2 = (url) => {
 
  router.post("/gen-doc-preview", (req, res) => {
   const formdata = req.body;
-
+  console.log(req.body);
   genFilePreview(formdata.url, (id) => {
     res.status(200).json({previewid : id});
   })
