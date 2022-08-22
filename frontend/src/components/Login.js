@@ -15,7 +15,7 @@ const Login = () => {
         // 3. data 
         // 4. Data format
 
-        const res = await fetch('http://localhost:4000/user/authenticate', {
+        const res = await fetch('https://preview-generation-tool.herokuapp.com/', {
             method: 'POST',
             body: JSON.stringify(formdata),
             headers: {
