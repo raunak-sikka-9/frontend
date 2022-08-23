@@ -19,14 +19,22 @@ const genFilePreview = (url, cb) => {
     // console.log(result.id)
     // console.log(result.status)
     // return result.id;
-    cb(result.id)
+    if(result){
+      cb(result.id)
+    }else{
+      cb("");
+    }
   })
 }
 
 const retrieveFilePreview = (id, cb) => {
   previews.retrieve(id, function (err, result) {
     console.log(result)
-    cb(result.preview.url);
+    if(id){
+      cb(result.preview.url);
+    }else{
+      cb("");
+    }
   });
 
 }
@@ -122,7 +130,11 @@ const generateVidPreview2 = (url) => {
   const formdata = req.body;
   console.log(req.body);
   genFilePreview(formdata.url, (id) => {
-    res.status(200).json({previewid : id});
+    if(id){
+      res.status(200).json({previewid : id});
+    }else{
+      res.status(500).json({status : "error"});
+    }
   })
  })
 
